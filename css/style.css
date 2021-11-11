@@ -1,0 +1,49 @@
+body {
+  background-color: #660708;
+}
+#menu,
+#booking,
+#about-us {
+  display: none;
+}
+#logo {
+  height: 100px;
+  width: 100px;
+}
+.navbar-dark,
+.card,
+.page-footer {
+  background-color: #0b090a;
+}
+.navbar-nav {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+}
+#home,
+#menu,
+#booking,
+#about-us {
+  background-color: #660708;
+}
+#booking-form > div,
+#submit {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+#booking-form-container {
+  width: 30%;
+  padding-top: 50px;
+}
+#map-location {
+  height: 200px;
+  width: 200px;
+  margin: auto;
+}
+@media (max-width: 480px) {
+  #booking-form-container {
+    width: 100%;
+    padding-top: 50px;
+  }
+}
