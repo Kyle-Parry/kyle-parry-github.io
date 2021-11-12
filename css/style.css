@@ -49,4 +49,26 @@ body {
   .col-4 {
     width: 100%;
   }
+  .header-separator {
+    display: none;
+  }
+}
+.navbar-toggler,
+.nav-link {
+  transition: 1s;
+}
+#bottom-bun {
+  fill: burlywood;
+}
+#patty {
+  fill: brown;
+}
+#cheese {
+  fill: yellow;
+}
+#tomato {
+  fill: red;
+}
+#top-bun {
+  fill: burlywood;
 }
