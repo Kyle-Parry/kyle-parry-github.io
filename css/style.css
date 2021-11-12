@@ -41,13 +41,13 @@ body {
   width: 200px;
   margin: auto;
 }
-@media (max-width: 400px) {
+@media (max-width: 480px) {
   #booking-form-container {
-    width: 100%;
+    min-width: 100%;
     padding-top: 50px;
   }
   .col-4 {
-    width: 100%;
+    min-width: 100%;
   }
   .header-separator {
     display: none;
